@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.bg-beige {
+  background-color: #f8f3ec;
+}
+.bg-card {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.text-matt-orange {
+  color: #e85a38;
+}
+.text-lg {
+  color: #000000;
+}
+.text-total-time {
+  color: grey;
+}
+.bg-matt-orange {
+  background-color: #e85a38;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .file-label {
+  background-color: beige;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: darkorange;
+  cursor: pointer;
+} */
+
+/* .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+} */
+
+/* h1 {
+  font-size: 24px;
+  font-color: blue;
+  margin-bottom: 20px;
+} */
+
+.playlist {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+.add-audio {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
